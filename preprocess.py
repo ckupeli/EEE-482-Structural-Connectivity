@@ -8,7 +8,7 @@ from dipy.segment.mask import median_otsu
 
 filename = 'DTI30s010'
 
-# Get directory of DWI
+# Get directory of DTI
 fimg = join('./', filename + '.nii') # 4D NIfTI1 file
 print(fimg)
 fbval = join('./', filename + '.bval') # b-values
